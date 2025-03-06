@@ -1,0 +1,111 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5; /* Minimalistic background color */
+  }
+  
+  /* Navbar */
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333; /* Dark shade for navbar */
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000;
+  }
+  
+  .navbar a {
+    color: #f5f5f5;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    color: #ffa500; /* Highlight color on hover */
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 20px; /* Ensure space below navbar */
+    background-color: #e8f4f8; /* Light and clean background */
+    height: 100vh;
+  }
+  
+  .hero .info {
+    flex: 1;
+  }
+  
+  .hero img {
+    flex: 1;
+    max-width: 300px; /* Medium-sized profile image */
+    height: auto;
+    border-radius: 10px; /* Subtle rounded corners */
+  }
+  
+  /* Sections */
+  section {
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  section h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  section p {
+    font-size: 1.1rem;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  /* Projects Section */
+  .projects {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .project img {
+    max-width: 150px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .project p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    background-color: #333;
+    color: #f5f5f5;
+    padding: 10px 0;
+  }
+  
